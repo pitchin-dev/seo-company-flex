@@ -662,9 +662,22 @@ h1, h2, h3, h4, h5, h6 {
     .footer__social__copyright span {
       color: #0095f9; }
 
-@media (max-width: 1280px) {
+@media (max-width: 1520px) {
+  .container {
+    padding: 0 100px; } }
+
+@media (max-width: 1300px) {
   .container {
     padding: 0 30px; } }
+
+@media (max-width: 1170px) {
+  .testimonials {
+    padding-top: 30px; }
+    .testimonials__items {
+      flex-direction: column;
+      justify-content: start; }
+      .testimonials__items__item {
+        margin-bottom: 30px; } }
 
 @media (max-width: 1024px) {
   .container {
@@ -674,13 +687,6 @@ h1, h2, h3, h4, h5, h6 {
   .data__text {
     font-size: 22px;
     padding-right: 0; }
-  .testimonials {
-    padding-top: 30px; }
-    .testimonials__items {
-      flex-direction: column;
-      justify-content: start; }
-      .testimonials__items__item {
-        margin-bottom: 30px; }
   .pricing__items {
     flex-direction: column; }
     .pricing__items__item {
