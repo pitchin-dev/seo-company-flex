@@ -404,7 +404,9 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center; }
     .header__panel__logo {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      color: inherit;
+      text-decoration: none; }
       .header__panel__logo__round {
         height: 20px;
         width: 20px;
@@ -439,9 +441,10 @@ h1, h2, h3, h4, h5, h6 {
             background-color: #2635da; }
         .header__panel__menu__item__link {
           color: inherit;
-          text-decoration: none; }
+          text-decoration: none;
+          transition: all .3s linear; }
           .header__panel__menu__item__link:hover {
-            text-decoration: underline; }
+            color: #0095f9; }
     .header__panel__burger {
       display: none;
       font-size: 30px; }
@@ -643,7 +646,10 @@ h1, h2, h3, h4, h5, h6 {
           margin-bottom: 10px; }
           .footer__panel__column__list__item__link {
             text-decoration: none;
-            color: #62656a; }
+            color: #62656a;
+            transition: all .3s linear; }
+            .footer__panel__column__list__item__link:hover {
+              color: #0095f9; }
       .footer__panel__column__text {
         text-align: justify;
         color: #62656a; }
@@ -658,7 +664,11 @@ h1, h2, h3, h4, h5, h6 {
     .footer__social__icons {
       font-size: 20px; }
       .footer__social__icons svg {
-        margin-right: 10px; }
+        margin-right: 10px;
+        cursor: pointer;
+        transition: all .3s linear; }
+        .footer__social__icons svg:hover {
+          color: #0095f9; }
     .footer__social__copyright span {
       color: #0095f9; }
 
